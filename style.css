@@ -1,1 +1,87 @@
-style.css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+}
+
+.nav-list {
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  padding: 15px 30px;
+}
+
+main {
+  width: 900px;
+  margin: 80px auto;
+}
+
+.box-list {
+  height: 900px;
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-1 {
+  background-color: #000000;
+  width: 300px;
+  height: 300px;
+}
+.box-2 {
+  background-color: #696969;
+  width: 300px;
+  height: 300px;
+}
+.box-3 {
+  background-color: #808080;
+  width: 300px;
+  height: 300px;
+}
+.box-4 {
+  background-color: #a9a9a9;
+  width: 300px;
+  height: 300px;
+}
+.box-5 {
+  background-color: #d3d3d3;
+  width: 300px;
+  height: 300px;
+}
+.box-6 {
+  background-color: #e6e6fa;
+  width: 300px;
+  height: 300px;
+}
+.box-7 {
+  background-color: #778899;
+  width: 300px;
+  height: 300px;
+}
+.box-8 {
+  background-color: #4682b4;
+  width: 300px;
+  height: 300px;
+}
+.box-9 {
+  background-color: #4169e1;
+  width: 300px;
+  height: 300px;
+}
+
+footer {
+  height: 50px;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
